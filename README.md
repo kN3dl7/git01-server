@@ -139,16 +139,16 @@ Adresář `srv01/.vagrant/` vznikne pouze lokálně při práci s Vagrantem a ne
 
 ## Moje řešení
 
-Distribuce a verze: Kali GNU/Linux Rolling (2026.2)
-Použitý Vagrant box: kalilinux/rolling
-Adresář serveru: srv01
-Výsledek spuštění a přihlášení: Server se úspěšně spustil pomocí vagrant up, vagrant status potvrdil stav running, přihlášení přes vagrant ssh proběhlo bez problémů.
-Případné problémy a jejich řešení: Žádné problémy při spouštění.
-Kontrolní kód a záznam ze serveru:
+- **Distribuce a verze:** Kali GNU/Linux Rolling (2026.2)
+- **Použitý Vagrant box:** kalilinux/rolling
+- **Adresář serveru:** srv01
+- **Výsledek spuštění a přihlášení:** Server se úspěšně spustil pomocí `vagrant up`, `vagrant status` potvrdil stav `running`, přihlášení přes `vagrant ssh` proběhlo bez problémů.
+- **Případné problémy a jejich řešení:** Žádné problémy při spouštění.
+- **Kontrolní kód a záznam ze serveru:**
 
 **Kontrolní kód:** `SPOS-3I-482752b99ace6853a35657be6b9b6f224353e933fb968fb8d77f2370cd68f8b2`
 
-​```text
+```
 Úloha: git-vagrant / SPOŠ / 3. I / v1
 Distribuce: Kali GNU/Linux Rolling
 Hostname: kali
@@ -156,7 +156,7 @@ Kernel: 6.19.14+kali-amd64
 Virtualizace: oracle
 Čas UTC: 2026-09-25T06:42:48Z
 Náhodné ID: fb2f6348-77c1-41a8-be00-8b721fc93f43
-​```
+```
 ## Nápověda a odkazy
 
 - [Vagrant – příklady VM v ročníkovém projektu](https://github.com/sposdknl/2026-sposdk-osy/tree/main/Vagrant)
